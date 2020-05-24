@@ -24,6 +24,7 @@ function stringContainsCovid(string) {
 
 // articleContainsCovid - returns a boolean indicating whether the article contains covid
 function articleContainsCovid(article) {
+  // iterate through each property in the article object for strings
   Object.keys(article).forEach(propKey => {
     if (stringContainsCovid(article[propKey] + '')) {
       return true;
