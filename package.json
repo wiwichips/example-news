@@ -1,0 +1,22 @@
+{
+  "name": "example-news",
+  "version": "1.0.0",
+  "description": "An example using the Google News API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiwichips/example-news.git"
+  },
+  "author": "Will Pringle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiwichips/example-news/issues"
+  },
+  "homepage": "https://github.com/wiwichips/example-news#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
