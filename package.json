@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/wiwichips/example-news#readme",
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "newsapi": "^2.4.0"
   }
 }
